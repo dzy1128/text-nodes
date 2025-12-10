@@ -9,16 +9,16 @@ class TextConcatenate:
         return {
             "required": {},
             "optional": {
-                "text_1": ("STRING", {"default": "", "multiline": True}),
-                "text_2": ("STRING", {"default": "", "multiline": True}),
-                "text_3": ("STRING", {"default": "", "multiline": True}),
-                "text_4": ("STRING", {"default": "", "multiline": True}),
-                "text_5": ("STRING", {"default": "", "multiline": True}),
-                "text_6": ("STRING", {"default": "", "multiline": True}),
-                "text_7": ("STRING", {"default": "", "multiline": True}),
-                "text_8": ("STRING", {"default": "", "multiline": True}),
-                "text_9": ("STRING", {"default": "", "multiline": True}),
-                "text_10": ("STRING", {"default": "", "multiline": True}),
+                "text_1": ("STRING", {"forceInput": True}),
+                "text_2": ("STRING", {"forceInput": True}),
+                "text_3": ("STRING", {"forceInput": True}),
+                "text_4": ("STRING", {"forceInput": True}),
+                "text_5": ("STRING", {"forceInput": True}),
+                "text_6": ("STRING", {"forceInput": True}),
+                "text_7": ("STRING", {"forceInput": True}),
+                "text_8": ("STRING", {"forceInput": True}),
+                "text_9": ("STRING", {"forceInput": True}),
+                "text_10": ("STRING", {"forceInput": True}),
                 "separator": ("STRING", {"default": "", "multiline": False}),
             }
         }
